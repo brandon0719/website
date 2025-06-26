@@ -44,25 +44,34 @@ export const experiencesData = [
         date: "Aug 2022 - Present",
     },
     {
-        title: "Undergraduate Research Assistant",
+        title: "IPHI - Undergraduate Research Assistant",
+        location: "Stony Brook, NY",
+        description:
+            "I worked as a research assistant in the Health Science department. I was involved in a project that focused on analyzing data and visualizing how it can be used to improve healthcare outcomes within the Long Island Community.",
+        icon: React.createElement(CgWorkAlt),
+        date: "Aug 2023 - Jul 2024",
+    },
+    {
+        title: "WebGen - Undergraduate Research Assistant",
         location: "Stony Brook, NY",
         description:
             "I worked as a research assistant in the Health Science department. I was involved in a project that focused on developing a web application for data visualization.",
         icon: React.createElement(CgWorkAlt),
-        date: "Aug 2024 - Jan 2025",
+        date: "Aug 2024 - May 2025",
     },
     {
-        title: "Mentee",
-        location: "Basta x Google SWEP",
+        title: "Google - Basta G-SWEP Fellow",
+        location: "Remote",
         description:
             "Engaged in 10 weeks of pair programming and mentorship with a Google Software Engineer.",
         icon: React.createElement(BsPerson),
         date: "Feb 2025 - May 2025",
     },
     {
-        title: "Software Development Engineer (SDE) Intern",
+        title: "Amazon Web Services - Software Development Engineer Intern",
         location: "Seattle, WA",
-        description: "Working as an SDE Intern at Amazon Web Services",
+        description:
+            "SDE Intern on the AWS Salesforce Success Central (SFSC) Security Enablement Engineering team.",
         icon: React.createElement(CgWorkAlt),
         date: "May 2025 - Present",
     },
@@ -99,6 +108,7 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
+  "TypeScript",
   "React",
   "Node.js",
   "Git",
@@ -109,4 +119,6 @@ export const skillsData = [
   "Python",
   "C",
   "Java",
+  "Agile Methodologies",
+  "Cloud Development"
 ] as const;

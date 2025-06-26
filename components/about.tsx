@@ -20,9 +20,9 @@ export default function About() {
             <p className="mb-3">
                 I'm currently pursuing a degree in{" "}
                 <span className="font-medium">Computer Science</span>, because
-                of my passion for programming. Through school and personal
+                of my passion for programming. Through internships, school, and personal
                 projects I have developed skills in{" "}
-                <span className="font-medium">full-stack web development</span>.{" "}
+                <span className="font-medium">software engineering</span>.{" "}
                 <span className="italic">My favorite part of programming</span>{" "}
                 is the problem-solving. I{" "}
                 <span className="underline">love</span> the feeling of solving a
